@@ -7,21 +7,30 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    background-color: pink;
 }
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 #container {
     display: flex;
+    background-color: white;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     height: 70vh;
     aspect-ratio: 1;
+    gap: 0;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px black;
 }
 .tiles {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    aspect-ratio: 1;
     margin: 0;
+    opacity: 1;
 }
